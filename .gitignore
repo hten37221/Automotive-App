@@ -1,0 +1,46 @@
+# Gradle and Android build output
+.gradle/
+.kotlin/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.class
+*.apk
+*.aab
+*.apks
+
+# Test, coverage, and analysis reports
+**/reports/
+**/coverage/
+**/jacoco/
+**/test-results/
+
+# Local Android SDK configuration
+local.properties
+
+# Signing configuration and credentials
+keystore.properties
+keystore/
+*.jks
+*.keystore
+*.p12
+
+# IDE and operating-system files
+.idea/
+.fleet/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.orig
+*~
+*.swp
+*.swo
+*.hprof
+**/out/
+**/tmp/
